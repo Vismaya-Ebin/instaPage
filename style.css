@@ -2,18 +2,34 @@
 .flexcontainer{
     display: flex;
     flex-flow:row wrap;
-    justify-content: space-around;
+    justify-content: center;
+    height: 150px;
+    align-items: flex-start;
+    background-color:rgb(247, 224, 237);
+}
+.container{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
 }
 .one{
 flex:1;
+
+width:250px;
+height:150px;
+}
+.img{
+    width:200px;
+height:150px;
 }
 .two{
-    flex:3
-
+    flex:3;
+   
 }
 .italic-style{
     font-weight: bolder;
     font-size:16px;
+    margin-top:15px;
    
 }
 .left-margin{
@@ -23,4 +39,18 @@ flex:1;
 .container{
     display:flex;
     flex-flow:row wrap;
+    justify-content: space-between;
+
+}
+.image-div{
+   margin:20px;
+  
+}
+.total-margin{
+    
+    margin:10px;
+   
+}
+body{
+    margin:0px;
 }
