@@ -1,0 +1,26 @@
+
+.flexcontainer{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+}
+.one{
+flex:1;
+}
+.two{
+    flex:3
+
+}
+.italic-style{
+    font-weight: bolder;
+    font-size:16px;
+   
+}
+.left-margin{
+ margin-left:20px;
+}
+
+.container{
+    display:flex;
+    flex-flow:row wrap;
+}
